@@ -24,7 +24,7 @@ public class TodoService {
 
     public List<Todo> list() {
         // Usando "Sort" pra ordenar tarefas por prioridade e nome
-        Sort sort = Sort.by("piority").descending().and(
+        Sort sort = Sort.by("priority").descending().and(
                 Sort.by("title").ascending()
         );
 
